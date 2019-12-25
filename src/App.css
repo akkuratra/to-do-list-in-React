@@ -1,0 +1,33 @@
+body{
+  background-color: rgb(89, 228, 238);
+}
+.App{
+  background-color:rgba(3, 60, 75, 0.952);
+  align-items: center;
+  min-height: 500px;
+  width: 400px;
+  margin: 40px auto;
+}
+#to-do-list input{
+  background-color: rgb(183, 187, 189);
+  border: 0;
+  width: 200px;
+  height: 30px;
+  padding: 0 20px;
+  margin: 20px;
+  border-radius: 7px;
+}
+#to-do-list input:focus,#to-do-list button:focus{
+  /*no outline when typing inside input box or when clicking on submit button*/
+  outline: none;
+}
+#to-do-list button{
+  background-color: rgb(245, 240, 240);
+  border: 0;
+  width: 55px;
+  height: 30px;
+  margin: 20px;
+  border-radius: 7px;
+  cursor: pointer; /*pointer turns to a hand symbol*/
+  font-weight: bolder;
+}
