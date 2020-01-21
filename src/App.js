@@ -80,7 +80,7 @@ class App extends React.Component{
       <div className="App">
         <header>
         <form id="to-do-list" onSubmit={this.addItem}>
-          <input type="text" placeholder="Enter task" value={this.state.currentItem.text} onChange={this.handleInput}/>
+          <input type="text" placeholder="Enter task" value={this.state.currentItem.text} onChange={this.handleInput} required/>
           <button type="submit">Add</button>
         </form>
       </header>

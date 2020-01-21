@@ -2,8 +2,8 @@
   "name": "to_do_list",
   "version": "0.1.0",
   "private": true,
-  "homepage":"http://akkuratra.github.io/to-do-list-in-React"
-  "dependencies": {
+  "homepage":"http://akkuratra.github.io/to-do-list-in-React",
+  "dependencies":{
     "@fortawesome/fontawesome-svg-core": "^1.2.26",
     "@fortawesome/free-solid-svg-icons": "^5.12.0",
     "@fortawesome/react-fontawesome": "^0.1.8",
